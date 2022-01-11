@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Pramod_Nagaraj\\source\\repos\\App\\Opermin\\Symbol_detect\\text_extarct_python.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Pramod_Nagaraj\\source\\repos\\App\\Opermin\\Symbol_detect\\text_extarct_python.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Pramod_Nagaraj\\source\\repos\\App\\Opermin\\Symbol_detect\\text_extarct_python.csproj",
+        "projectName": "text_extarct_python",
+        "projectPath": "C:\\Users\\Pramod_Nagaraj\\source\\repos\\App\\Opermin\\Symbol_detect\\text_extarct_python.csproj",
+        "packagesPath": "C:\\Users\\Pramod_Nagaraj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pramod_Nagaraj\\source\\repos\\App\\Opermin\\Symbol_detect\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pramod_Nagaraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/qQCR4V3V3hPZ1FK5JrO8a99RTi8PvUe2lPg3wICeXUHN27wThP/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Aardvark.Base": {
+              "target": "Package",
+              "version": "[5.1.25, )"
+            },
+            "IronPython": {
+              "target": "Package",
+              "version": "[2.7.11, )"
+            },
+            "OpenCVSharp": {
+              "target": "Package",
+              "version": "[2.4.0.1, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "python": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
